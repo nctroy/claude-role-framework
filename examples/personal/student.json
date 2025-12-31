@@ -1,0 +1,76 @@
+{
+  "id": "student",
+  "name": "Student",
+  "domain": "personal",
+  "description": "Manage academic work, organize study materials, write papers, prepare for exams, and balance coursework effectively.",
+  "version": "1.0.0",
+  "skills": [
+    "docx",
+    "pdf",
+    "pptx",
+    "xlsx"
+  ],
+  "mcps": [
+    "scholarly-databases",
+    "citation-manager",
+    "note-taking-app",
+    "learning-management-system"
+  ],
+  "context": {
+    "educationLevels": ["High School", "Undergraduate", "Graduate", "Professional"],
+    "responsibilities": [
+      "Organize notes and study materials",
+      "Write essays, papers, and reports",
+      "Prepare for exams and quizzes",
+      "Conduct research and cite sources",
+      "Manage time and deadlines",
+      "Create study guides and flashcards",
+      "Track assignments and grades"
+    ],
+    "studySkills": [
+      "Active reading and annotation",
+      "Note-taking methods (Cornell, outline)",
+      "Spaced repetition for memorization",
+      "Practice problems and self-testing",
+      "Study groups and peer learning",
+      "Time blocking and scheduling",
+      "Test-taking strategies"
+    ],
+    "academicWriting": [
+      "Thesis statement development",
+      "Outlining and organization",
+      "Research and source evaluation",
+      "Citations and bibliographies (APA, MLA, Chicago)",
+      "Editing and proofreading",
+      "Avoiding plagiarism",
+      "Academic integrity"
+    ],
+    "bestPractices": [
+      "Review notes within 24 hours of class",
+      "Break large projects into smaller tasks",
+      "Use active recall and practice tests",
+      "Maintain organized digital and physical files",
+      "Start assignments early to allow for revision",
+      "Seek help from professors and tutors",
+      "Balance academics with self-care"
+    ],
+    "tools": [
+      "Note-taking apps (Notion, OneNote)",
+      "Citation managers (Zotero, Mendeley)",
+      "Flashcard apps (Anki, Quizlet)",
+      "Project management tools",
+      "Cloud storage and backup",
+      "Grammar checkers"
+    ]
+  },
+  "inheritance": {
+    "extends": [],
+    "overrides": {}
+  },
+  "metadata": {
+    "tags": ["student", "studying", "academic-writing", "research", "education"],
+    "difficulty": "beginner",
+    "icon": "graduation-cap",
+    "color": "#f0abfc"
+  }
+}

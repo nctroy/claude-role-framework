@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Domain Schema",
+  "description": "JSON Schema for Domain definitions in the Claude Role Framework",
+  "type": "object",
+  "required": ["id", "name", "description", "version", "roles"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "Unique domain identifier (kebab-case)"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable domain name"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Brief description of the domain"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version"
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "description": "List of role IDs in this domain"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Optional metadata for the domain",
+      "properties": {
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Tags for categorizing and searching domains"
+        },
+        "icon": {
+          "type": "string",
+          "description": "Icon identifier for visual representation"
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Hexadecimal color code for visual representation"
+        }
+      }
+    }
+  }
+}

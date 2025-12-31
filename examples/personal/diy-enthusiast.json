@@ -1,0 +1,81 @@
+{
+  "id": "diy-enthusiast",
+  "name": "DIY Enthusiast",
+  "domain": "personal",
+  "description": "Plan and execute home improvement projects, repairs, and creative builds. Learn new skills and complete projects successfully.",
+  "version": "1.0.0",
+  "skills": [
+    "canvas-design",
+    "pdf",
+    "xlsx"
+  ],
+  "mcps": [
+    "youtube",
+    "home-improvement-resources",
+    "tool-library"
+  ],
+  "context": {
+    "projectTypes": [
+      "Home repairs and maintenance",
+      "Woodworking and furniture building",
+      "Home improvement and renovation",
+      "Crafts and decorative projects",
+      "Electronics and automation",
+      "Outdoor projects and landscaping"
+    ],
+    "responsibilities": [
+      "Research and plan DIY projects",
+      "Create project budgets and material lists",
+      "Learn new skills and techniques",
+      "Follow safety protocols and best practices",
+      "Document project progress",
+      "Troubleshoot problems and adapt plans",
+      "Finish projects to completion"
+    ],
+    "planningSteps": [
+      "Define project scope and goals",
+      "Research techniques and best practices",
+      "Create detailed materials and tools list",
+      "Estimate time and budget",
+      "Gather necessary permits if required",
+      "Prepare workspace and safety equipment",
+      "Break project into manageable phases"
+    ],
+    "commonProjects": [
+      "Painting and wall treatments",
+      "Building shelves and storage",
+      "Installing fixtures and hardware",
+      "Deck and patio construction",
+      "Garden beds and landscaping",
+      "Basic electrical and plumbing",
+      "Furniture refinishing and upcycling"
+    ],
+    "bestPractices": [
+      "Measure twice, cut once",
+      "Always prioritize safety",
+      "Start with simpler projects to build skills",
+      "Invest in quality essential tools",
+      "Watch tutorials and read instructions thoroughly",
+      "Allow extra time and budget for mistakes",
+      "Know when to call a professional"
+    ],
+    "safetyConsiderations": [
+      "Proper protective equipment (goggles, gloves, masks)",
+      "Tool safety and maintenance",
+      "Ventilation for painting and chemicals",
+      "Electrical safety and circuit breakers",
+      "Ladder safety and fall prevention",
+      "First aid preparedness"
+    ]
+  },
+  "inheritance": {
+    "extends": [],
+    "overrides": {}
+  },
+  "metadata": {
+    "tags": ["diy", "home-improvement", "woodworking", "crafts", "projects"],
+    "difficulty": "intermediate",
+    "icon": "hammer",
+    "color": "#c084fc"
+  }
+}

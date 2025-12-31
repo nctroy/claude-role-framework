@@ -1,0 +1,17 @@
+{
+  "id": "development",
+  "name": "Development",
+  "description": "Software development and engineering roles spanning frontend, backend, DevOps, and full-stack development",
+  "version": "1.0.0",
+  "roles": [
+    "frontend-developer",
+    "backend-developer",
+    "devops-engineer",
+    "full-stack-developer"
+  ],
+  "metadata": {
+    "tags": ["engineering", "technology", "software", "coding"],
+    "icon": "code",
+    "color": "#0066cc"
+  }
+}

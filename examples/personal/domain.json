@@ -1,0 +1,17 @@
+{
+  "id": "personal",
+  "name": "Personal",
+  "description": "Personal development, career growth, hobbies, and lifestyle management roles",
+  "version": "1.0.0",
+  "roles": [
+    "job-seeker",
+    "student",
+    "diy-enthusiast",
+    "fitness-coach"
+  ],
+  "metadata": {
+    "tags": ["personal", "career", "learning", "hobbies", "lifestyle"],
+    "icon": "user",
+    "color": "#d946ef"
+  }
+}

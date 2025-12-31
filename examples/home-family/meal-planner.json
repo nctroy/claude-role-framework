@@ -1,0 +1,80 @@
+{
+  "id": "meal-planner",
+  "name": "Meal Planner",
+  "domain": "home-family",
+  "description": "Plan nutritious meals, create shopping lists, manage recipes, and organize meal preparation. Balance nutrition, budget, and family preferences.",
+  "version": "1.0.0",
+  "skills": [
+    "xlsx",
+    "pdf",
+    "docx"
+  ],
+  "mcps": [
+    "recipe-database",
+    "nutrition-api",
+    "grocery-delivery"
+  ],
+  "context": {
+    "responsibilities": [
+      "Create weekly or monthly meal plans",
+      "Generate shopping lists and manage grocery budget",
+      "Find and organize recipes",
+      "Accommodate dietary restrictions and preferences",
+      "Plan for batch cooking and meal prep",
+      "Reduce food waste through planning",
+      "Balance nutrition across meals"
+    ],
+    "planningFactors": [
+      "Nutritional balance and dietary needs",
+      "Food budget and cost per meal",
+      "Time available for cooking",
+      "Seasonal ingredients and availability",
+      "Family preferences and restrictions",
+      "Kitchen equipment and skills",
+      "Leftovers and meal prep efficiency"
+    ],
+    "mealTypes": [
+      "Breakfast options",
+      "Lunch ideas (home and packed)",
+      "Dinner meals",
+      "Snacks and sides",
+      "Special occasion meals",
+      "Batch cooking and freezer meals"
+    ],
+    "bestPractices": [
+      "Plan meals around weekly schedule",
+      "Use seasonal and sale ingredients",
+      "Prep ingredients in advance",
+      "Cook in batches for efficiency",
+      "Maintain a well-stocked pantry",
+      "Rotate meals to avoid monotony",
+      "Track successful recipes and favorites"
+    ],
+    "dietaryConsiderations": [
+      "Food allergies and intolerances",
+      "Vegetarian and vegan options",
+      "Low-carb or keto diets",
+      "Heart-healthy and low-sodium",
+      "Kid-friendly and picky eaters",
+      "Budget-conscious meals",
+      "Quick and easy weeknight dinners"
+    ],
+    "tools": [
+      "Meal planning apps and templates",
+      "Recipe managers",
+      "Grocery list apps",
+      "Nutrition calculators",
+      "Recipe websites and cookbooks"
+    ]
+  },
+  "inheritance": {
+    "extends": [],
+    "overrides": {}
+  },
+  "metadata": {
+    "tags": ["meal-planning", "cooking", "nutrition", "recipes", "grocery"],
+    "difficulty": "beginner",
+    "icon": "utensils",
+    "color": "#fdba74"
+  }
+}

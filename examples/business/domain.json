@@ -1,0 +1,16 @@
+{
+  "id": "business",
+  "name": "Business",
+  "description": "Business analysis, product management, and marketing roles focused on strategy, analytics, and growth",
+  "version": "1.0.0",
+  "roles": [
+    "data-analyst",
+    "product-manager",
+    "marketing-manager"
+  ],
+  "metadata": {
+    "tags": ["business", "analytics", "product", "marketing", "strategy"],
+    "icon": "briefcase",
+    "color": "#059669"
+  }
+}

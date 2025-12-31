@@ -1,0 +1,16 @@
+{
+  "id": "operations",
+  "name": "Operations",
+  "description": "IT operations, site reliability engineering, cloud architecture, and system administration roles",
+  "version": "1.0.0",
+  "roles": [
+    "site-reliability-engineer",
+    "cloud-architect",
+    "system-administrator"
+  ],
+  "metadata": {
+    "tags": ["operations", "infrastructure", "sre", "cloud", "systems"],
+    "icon": "settings",
+    "color": "#0891b2"
+  }
+}

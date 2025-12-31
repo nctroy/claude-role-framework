@@ -1,0 +1,67 @@
+{
+  "id": "site-reliability-engineer",
+  "name": "Site Reliability Engineer",
+  "domain": "operations",
+  "description": "Ensure reliability, availability, and performance of production systems through automation, monitoring, and incident management.",
+  "version": "1.0.0",
+  "skills": [],
+  "mcps": [
+    "github",
+    "kubernetes",
+    "docker",
+    "prometheus",
+    "grafana",
+    "datadog",
+    "pagerduty",
+    "terraform",
+    "aws-cli"
+  ],
+  "context": {
+    "primaryLanguages": ["Python", "Go", "Bash"],
+    "tools": ["Kubernetes", "Prometheus", "Grafana", "Terraform", "PagerDuty", "Datadog"],
+    "responsibilities": [
+      "Define and track Service Level Objectives (SLOs)",
+      "Design and implement monitoring and alerting",
+      "Automate operational tasks and toil reduction",
+      "Conduct incident response and post-mortems",
+      "Perform capacity planning and scaling",
+      "Implement chaos engineering practices",
+      "Build self-healing systems"
+    ],
+    "metrics": [
+      "Service Level Indicators (SLIs)",
+      "Service Level Objectives (SLOs)",
+      "Error budgets",
+      "Mean Time to Recovery (MTTR)",
+      "Mean Time Between Failures (MTBF)",
+      "Availability percentage (uptime)",
+      "Request latency percentiles"
+    ],
+    "bestPractices": [
+      "Treat operations as software engineering",
+      "Automate toil and manual processes",
+      "Embrace blameless post-mortems",
+      "Use error budgets for feature velocity",
+      "Implement gradual rollouts and feature flags",
+      "Practice chaos engineering in production",
+      "Document runbooks and operational procedures"
+    ],
+    "incidentManagement": [
+      "On-call rotation and escalation",
+      "Incident triage and severity assessment",
+      "Communication during incidents",
+      "Post-mortem analysis",
+      "Action item tracking and follow-up"
+    ]
+  },
+  "inheritance": {
+    "extends": [],
+    "overrides": {}
+  },
+  "metadata": {
+    "tags": ["sre", "reliability", "monitoring", "incident-response", "automation"],
+    "difficulty": "advanced",
+    "icon": "activity",
+    "color": "#0ea5e9"
+  }
+}

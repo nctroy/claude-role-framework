@@ -1,0 +1,16 @@
+{
+  "id": "finance",
+  "name": "Finance",
+  "description": "Financial analysis, accounting, and financial management roles focused on budgeting, reporting, and compliance",
+  "version": "1.0.0",
+  "roles": [
+    "financial-analyst",
+    "controller",
+    "accountant"
+  ],
+  "metadata": {
+    "tags": ["finance", "accounting", "budgeting", "financial-analysis", "reporting"],
+    "icon": "dollar-sign",
+    "color": "#15803d"
+  }
+}

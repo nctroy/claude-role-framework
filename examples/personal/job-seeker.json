@@ -1,0 +1,80 @@
+{
+  "id": "job-seeker",
+  "name": "Job Seeker",
+  "domain": "personal",
+  "description": "Navigate the job search process including resume creation, cover letters, interview preparation, and career planning. Land your next opportunity.",
+  "version": "1.0.0",
+  "skills": [
+    "docx",
+    "pdf",
+    "pptx"
+  ],
+  "mcps": [
+    "linkedin",
+    "indeed",
+    "glassdoor",
+    "job-boards"
+  ],
+  "context": {
+    "jobSearchPhases": [
+      "Self-assessment and career planning",
+      "Resume and cover letter creation",
+      "Job search and application",
+      "Interview preparation",
+      "Negotiation and offer evaluation",
+      "Onboarding preparation"
+    ],
+    "responsibilities": [
+      "Create and optimize resume and LinkedIn profile",
+      "Write tailored cover letters",
+      "Research companies and opportunities",
+      "Prepare for interviews and practice responses",
+      "Track job applications and follow-ups",
+      "Negotiate salary and benefits",
+      "Build professional network"
+    ],
+    "resumeSections": [
+      "Contact information and summary",
+      "Work experience with achievements",
+      "Education and certifications",
+      "Skills and technical competencies",
+      "Projects and portfolio",
+      "Awards and publications"
+    ],
+    "interviewPreparation": [
+      "Research company and role",
+      "Prepare STAR method responses",
+      "Practice common interview questions",
+      "Prepare questions for interviewer",
+      "Plan interview outfit and logistics",
+      "Follow up with thank-you notes"
+    ],
+    "bestPractices": [
+      "Tailor resume for each application",
+      "Quantify achievements with metrics",
+      "Use industry keywords for ATS",
+      "Network actively on LinkedIn",
+      "Prepare stories that highlight skills",
+      "Research salary ranges before negotiating",
+      "Stay organized with application tracker"
+    ],
+    "networkingStrategies": [
+      "Attend industry events and meetups",
+      "Conduct informational interviews",
+      "Engage on professional social media",
+      "Join professional associations",
+      "Leverage alumni networks",
+      "Ask for referrals"
+    ]
+  },
+  "inheritance": {
+    "extends": [],
+    "overrides": {}
+  },
+  "metadata": {
+    "tags": ["job-search", "resume", "interview", "career", "networking"],
+    "difficulty": "intermediate",
+    "icon": "briefcase",
+    "color": "#e879f9"
+  }
+}

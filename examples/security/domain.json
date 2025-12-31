@@ -1,0 +1,16 @@
+{
+  "id": "security",
+  "name": "Security",
+  "description": "Information security, penetration testing, and compliance roles focused on protecting systems and ensuring regulatory adherence",
+  "version": "1.0.0",
+  "roles": [
+    "security-analyst",
+    "penetration-tester",
+    "compliance-officer"
+  ],
+  "metadata": {
+    "tags": ["security", "compliance", "pentesting", "vulnerability", "risk"],
+    "icon": "shield",
+    "color": "#dc2626"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "hr",
+  "name": "Human Resources",
+  "description": "Human resources roles focused on recruitment, employee relations, benefits administration, and HR management",
+  "version": "1.0.0",
+  "roles": [
+    "recruiter",
+    "hr-manager",
+    "benefits-administrator"
+  ],
+  "metadata": {
+    "tags": ["hr", "human-resources", "recruiting", "benefits", "people"],
+    "icon": "users",
+    "color": "#7c3aed"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "home-family",
+  "name": "Home & Family",
+  "description": "Family management, home organization, education, and household planning roles",
+  "version": "1.0.0",
+  "roles": [
+    "parent-educator",
+    "home-manager",
+    "meal-planner"
+  ],
+  "metadata": {
+    "tags": ["family", "home", "parenting", "education", "organization"],
+    "icon": "home",
+    "color": "#ea580c"
+  }
+}

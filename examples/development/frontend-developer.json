@@ -1,0 +1,51 @@
+{
+  "id": "frontend-developer",
+  "name": "Frontend Developer",
+  "domain": "development",
+  "description": "Build modern web user interfaces with React, Vue, and other frameworks. Specializes in creating responsive, accessible, and performant web applications.",
+  "version": "1.0.0",
+  "skills": [
+    "canvas-design",
+    "web-artifacts-builder",
+    "frontend-design",
+    "webapp-testing",
+    "algorithmic-art"
+  ],
+  "mcps": [
+    "github",
+    "npm-registry",
+    "figma",
+    "browser-devtools"
+  ],
+  "context": {
+    "primaryLanguages": ["JavaScript", "TypeScript", "HTML", "CSS"],
+    "frameworks": ["React", "Vue", "Angular", "Svelte", "Next.js"],
+    "tools": ["Webpack", "Vite", "ESLint", "Prettier", "PostCSS"],
+    "responsibilities": [
+      "Implement responsive user interfaces",
+      "Ensure cross-browser compatibility",
+      "Optimize frontend performance and bundle size",
+      "Collaborate with designers and backend developers",
+      "Implement accessibility standards (WCAG 2.1)",
+      "Write and maintain component tests"
+    ],
+    "bestPractices": [
+      "Use semantic HTML for better accessibility",
+      "Implement CSS-in-JS or utility-first CSS frameworks",
+      "Follow component-based architecture patterns",
+      "Optimize images and assets for web delivery",
+      "Use lazy loading for code splitting",
+      "Implement proper error boundaries and loading states"
+    ]
+  },
+  "inheritance": {
+    "extends": [],
+    "overrides": {}
+  },
+  "metadata": {
+    "tags": ["web", "ui", "javascript", "react", "typescript"],
+    "difficulty": "intermediate",
+    "icon": "layout",
+    "color": "#61dafb"
+  }
+}

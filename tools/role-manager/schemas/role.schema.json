@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Role Schema",
+  "description": "JSON Schema for Role definitions in the Claude Role Framework",
+  "type": "object",
+  "required": ["id", "name", "domain", "description", "version", "skills", "mcps"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "Unique role identifier (kebab-case)"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable role name"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Parent domain ID"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Detailed role description"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of skill IDs"
+    },
+    "mcps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of MCP server IDs"
+    },
+    "context": {
+      "type": "object",
+      "description": "Domain-specific contextual knowledge"
+    },
+    "inheritance": {
+      "type": "object",
+      "description": "Role inheritance configuration",
+      "properties": {
+        "extends": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of parent role IDs to inherit from"
+        },
+        "overrides": {
+          "type": "object",
+          "description": "Override configuration for inherited properties"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Optional metadata for the role",
+      "properties": {
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Tags for categorizing and searching roles"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["beginner", "intermediate", "advanced", "expert"],
+          "description": "Difficulty level of the role"
+        },
+        "icon": {
+          "type": "string",
+          "description": "Icon identifier for visual representation"
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Hexadecimal color code for visual representation"
+        }
+      }
+    }
+  }
+}
