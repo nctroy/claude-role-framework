@@ -70,5 +70,7 @@ Thumbs.db
 
 # Submission tracking (local only)
 .submission/
-# Archive (local-only, contains sensitive collaboration patterns)
-.archive/
+
+# Conversation logs (archived separately)
+conversation-log*.md
+HANDOFF-TO-GEMINI.md

@@ -106,7 +106,7 @@
 
 ### 1-Minute Quick Look
 ```bash
-cd /Users/xsphoto/Projects/claude-role-framework
+# View the submission package from the root
 cat SUBMISSION-PACKAGE.md | head -50
 ```
 
@@ -186,20 +186,17 @@ schemas/                      ← JSON schemas
 
 ## Final Verification Commands
 
-Run these to confirm everything works:
+Run these to confirm everything works from the project root:
 
 ```bash
-# Navigate to project
-cd /Users/xsphoto/Projects/claude-role-framework
-
 # Verify CLI works
 node tools/role-manager/bin/claude-role.js list
 
 # Run all tests
 cd tools/role-manager && npm test
+cd ../..
 
 # Validate example role
-cd ..
 node tools/role-manager/bin/claude-role.js validate examples/development/frontend-developer.json
 
 # Check documentation exists

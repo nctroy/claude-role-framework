@@ -48,11 +48,9 @@ Skills + MCPs + Context
 
 ## Quick Demo (2 Minutes)
 
-Try the working CLI right now:
+Try the working CLI right now from the project root:
 
 ```bash
-cd /Users/xsphoto/Projects/claude-role-framework
-
 # See all 26 roles across 8 domains
 node tools/role-manager/bin/claude-role.js list
 
@@ -501,7 +499,7 @@ claude-role-framework/
 
 ## Contact & Follow-up
 
-**Project Repository:** `/Users/xsphoto/Projects/claude-role-framework`
+**Project Repository:** https://github.com/nctroy/claude-role-framework
 
 **Live Demo:**
 - Dashboard: http://localhost:8890 (if running)
