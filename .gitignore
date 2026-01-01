@@ -70,3 +70,5 @@ Thumbs.db
 
 # Submission tracking (local only)
 .submission/
+# Archive (local-only, contains sensitive collaboration patterns)
+.archive/
