@@ -460,8 +460,7 @@ claude-role-framework/
 │   ├── lib/core/                 # Core components
 │   ├── tests/                    # 15 passing tests
 │   └── package.json
-└── project-tracker/              # Live dashboard (port 8890)
-    └── [FastAPI + HTMX tracker]
+
 ```
 
 ---
@@ -502,7 +501,6 @@ claude-role-framework/
 **Project Repository:** https://github.com/nctroy/claude-role-framework
 
 **Live Demo:**
-- Dashboard: http://localhost:8890 (if running)
 - CLI: `node tools/role-manager/bin/claude-role.js list`
 
 **For Questions:**
