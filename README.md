@@ -1,5 +1,8 @@
 # Claude Role Framework
 
+> **CURRENT STATUS: Phase 1 Complete (CLI Implemented)**
+> See [PHASE1-STATUS.md](PHASE1-STATUS.md) for details on the current build and how to resume.
+
 > **A hierarchical system for organizing Claude Skills into job functions, making AI assistance intuitive for work and life**
 
 ## Vision
@@ -347,4 +350,4 @@ Born from a conversation about making Claude Skills more accessible and discover
 
 ---
 
-**Status:** Early exploration | **Version:** 0.1.0 | **Last Updated:** 2025-12-30
+**Status:** Phase 1 Complete | **Version:** 1.0.0-poc | **Last Updated:** 2025-12-30
